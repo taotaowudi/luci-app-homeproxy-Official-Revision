@@ -41,7 +41,7 @@
 			"type": "view",
 			"path": "homeproxy/status"
 		}
-	}
+	},
 	"admin/services/homeproxy/dashboard": {
 		"title": "Open Clash Dashboard",
 		"order": 99,
