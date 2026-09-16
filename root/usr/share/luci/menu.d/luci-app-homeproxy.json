@@ -44,10 +44,10 @@
 	},
 	"admin/services/homeproxy/dashboard": {
 		"title": "Open Clash Dashboard",
-		"order": 99,
+		"order": 40,
 		"action": {
-			"type": "link",
-			"path": "/luci-static/resources/homeproxy/zashboard/index.html"
+			"type": "view",
+			"path": "homeproxy/dashboard"
 		},
 		"depends": {
 			"acl": [ "luci-app-homeproxy" ]
