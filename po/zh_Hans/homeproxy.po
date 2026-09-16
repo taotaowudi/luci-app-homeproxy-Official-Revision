@@ -3630,6 +3630,9 @@ msgstr "使用额外标签时初始路径需包含 {tag}"
 #~ msgid "Disable Path MTU discovery"
 #~ msgstr "禁用路径 MTU 探测"
 
+msgid "Open Clash Dashboard"
+msgstr "打开Dashboard面板"
+
 #~ msgid ""
 #~ "Disables Path MTU Discovery (RFC 8899). Packets will then be at most 1252 "
 #~ "(IPv4) / 1232 (IPv6) bytes in size."
