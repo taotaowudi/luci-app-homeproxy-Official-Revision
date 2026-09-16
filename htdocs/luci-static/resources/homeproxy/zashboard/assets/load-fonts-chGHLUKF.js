@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./index-DVYdooLV.css","./MiSans-VF-BEM3IawV.css","./SarasaUiSC-Regular-Oct8_5WG.css","./PingFangSC-Regular-ClQhLIzk.css"])))=>i.map(i=>d[i]);
+import{bv as _}from"./index-kiFwKhJF.js";const r=()=>{_(()=>Promise.resolve({}),__vite__mapDeps([0]),import.meta.url),_(()=>Promise.resolve({}),__vite__mapDeps([1]),import.meta.url),_(()=>Promise.resolve({}),__vite__mapDeps([2]),import.meta.url),_(()=>Promise.resolve({}),__vite__mapDeps([3]),import.meta.url)};export{r as loadFonts};
