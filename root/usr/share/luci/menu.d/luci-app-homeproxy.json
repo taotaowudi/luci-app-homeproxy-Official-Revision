@@ -41,16 +41,5 @@
 			"type": "view",
 			"path": "homeproxy/status"
 		}
-	},
-	"admin/services/homeproxy/dashboard": {
-		"title": "Open Clash Dashboard",
-		"order": 40,
-		"action": {
-			"type": "view",
-			"path": "homeproxy/dashboard"
-		},
-		"depends": {
-			"acl": [ "luci-app-homeproxy" ]
-		}
 	}
 }
