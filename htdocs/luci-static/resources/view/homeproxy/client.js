@@ -56,6 +56,9 @@ function renderStatus(isRunning, version) {
 	else
 		renderHTML = spanTemp.format('red', _('HomeProxy'), version, _('NOT RUNNING'));
 
+	if (isRunning)
+		renderHTML += ' <button class="btn cbi-button cbi-button-action" onclick="window.open(\'/luci-static/resources/homeproxy/zashboard/index.html\', \'_blank\')">' + _('Open Dashboard') + '</button>';
+
 	return renderHTML;
 }
 
