@@ -1203,6 +1203,16 @@ if (routing_mode in ['bypass_mainland_china', 'custom']) {
 		}
 	};
 }
+
+/* Clash API: always enable, regardless of routing mode */
+if (!config.experimental)
+	config.experimental = {};
+
+config.experimental.clash_api = {
+	external_controller: '[::]:9090',
+	access_control_allow_origin: ['*'],
+	access_control_allow_private_network: true
+};
 /* Experimental end */
 
 config['$schema'] = 'https://sing-box.sagernet.org/schema.json';
